@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cursiva', sans-serif;
+}
+
+body{
+  background-color: #2ab3ac;  
+}
+
+.jogo-da-velha{
+    width: 25rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #000807;
+}
+
+.titulo{
+    width: 250px;
+    height: 25rem;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-weight: 100px;
+    text-align: center;
+    background-color: #000807;
+    z-index: 99;
+}
+
+table td{
+    display: inline-block;
+}
+
+td .btn{
+    margin: 3px;
+    width: 120px;
+    height: 90px;
+    cursor: pointer;
+    border: none;
+    background-color: #0C1A21;
+    color: #dfdfdf;
+    font-size: 55px;
+    transition:  all 50ms ease-in-out;
+} 
+
+.btn:hover{
+    background-color: #162f3b;
+}
+
+.btn-inicio{
+    margin: 3px;
+    width: 23rem;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #2ab3ac;
+    color: #dfdfdf;
+    font-size: 16px;
+    transition:  all 50ms ease-in-out;
+    border-radius: 1rem;
+} 
+
+.modal-header{
+    display: block;
+}
+
+.modal-title{
+    text-align: center;
+}
+.modal-footer{
+    display: block;
+}
+
+.btn-secondary{
+    width: 15rem;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: white;
+}
